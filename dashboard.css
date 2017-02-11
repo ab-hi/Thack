@@ -1,0 +1,19 @@
+
+body{
+	color: #fff;
+	background-color: #333;
+}
+nav{
+	background-color: #009688  ;
+}
+
+.container nav{
+	background-color: #4db6ac   ;
+	margin-top: 2%;
+
+}
+
+.card{
+	border-bottom: 2px solid #009688;
+	background-color: rgba(0,0,0,0.5);
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="assets/materialize/css/materialize.css" />
+	<link rel="stylesheet" type="text/css" href="assets/parallax/styles/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><!--i class="material-icons">menu</i-->menu</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+<div class="land_area">
+	<div class="row">
+		<div class="col m6 s5"> 
+			
+		<ul id="scene" class="scene">
+			<li class="layer" data-depth="1.00"><img src="assets/parallax/images/layer1.png"></li>
+			<li class="layer" data-depth="0.80"><img src="assets/parallax/images/layer2.png"></li>
+			<li class="layer" data-depth="0.60"><img src="assets/parallax/images/layer3.png"></li>
+			<li class="layer" data-depth="0.40"><img src="assets/parallax/images/layer4.png"></li>
+			<li class="layer" data-depth="0.20"><img src="assets/parallax/images/layer5.png"></li>
+			<li class="layer" data-depth="0.00"><img src="assets/parallax/images/layer6.png"></li>
+		</ul>
+	
+		</div>
+		<div class="col m4 s5 offset-m1">
+			  <div class="row land_form">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+     
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+
+      <div class="col s10 m8">
+      	Register as:
+      	<div class="input-field inline">
+      		<input name="group1" type="radio" id="student" />
+      <label for="student">Student</label>
+      <input name="group1" type="radio" id="teacher" />
+      <label for="teacher">Teacher</label>
+      	</div>
+      </div>
+      </div>
+      	
+      	<!--div class="col m6 s6">
+
+      	<p>
+      <input name="group1" type="radio" id="student" />
+      <label for="test1">Student</label>
+    </p>
+    </div>
+    <div class="col m6 s6">
+    <p>
+      <input name="group1" type="radio" id="teacher" />
+      <label for="test2">Teacher</label>
+    </p>
+    </div>
+      </div-->
+      
+    </form>
+     <button class="btn waves-effect waves-light submit_btn" type="submit" name="action">Submit
+    
+  </button>
+  </div>
+        
+		</div>
+		</div>
+		</div>
+	
+
+
+	<script type="text/javascript" src="assets/materialize/js/jquery.js"></script>
+	<script type="text/javascript" src="assets/materialize/js/materialize.js"></script>
+
+	<script src="assets/parallax/scripts/parallax.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
+</body>
+</html>
